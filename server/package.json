@@ -6,6 +6,7 @@
   "main": "server.js",
   "scripts": {
     "server": "nodemon server.js",
+    "start": "node server.js",
     "build:client": "npm run --prefix backend/client build",
     "build:admin": "npm run --prefix backend/admin build",
     "build": "npm run build:client && npm run build:admin"
